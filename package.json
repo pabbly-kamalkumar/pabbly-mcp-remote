@@ -1,0 +1,24 @@
+{
+  "name": "pabbly-mcp-remote",
+  "version": "1.0.0",
+  "description": "A lightweight bridge for Model Context Protocol remote connections",
+  "type": "module",
+  "main": "dist/bridge.js",
+  "bin": {
+    "pabbly-mcp-remote": "dist/bridge.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/bridge.js"
+  },
+  "keywords": ["mcp", "claude", "pabbly", "ai", "bridge"],
+  "author": "Pabbly",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}

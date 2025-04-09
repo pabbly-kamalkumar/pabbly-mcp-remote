@@ -1,0 +1,38 @@
+# Source code (since we're distributing compiled code)
+src/
+
+# Git files
+.git/
+.gitignore
+
+# Development configurations
+tsconfig.json
+.eslintrc
+.prettierrc
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing
+test/
+coverage/
+*.test.js
+*.spec.js
+
+# CI/CD
+.github/
+.travis.yml
+.gitlab-ci.yml
+appveyor.yml
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Project specific
+.qodo/
+
+# Don't ignore dist/bridge.js
+!dist/bridge.js
