@@ -11,7 +11,7 @@ npm install -g pabbly-mcp-remote
 Or install it directly from GitHub:
 
 ```bash
-npm install -g github:pabbly/pabbly-mcp-remote
+npm install -g github:pabbly-kamalkumar/pabbly-mcp-remote
 ```
 
 ## Usage
@@ -37,7 +37,7 @@ This bridge:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/pabbly/pabbly-mcp-remote.git
+   git clone https://github.com/pabbly-kamalkumar/pabbly-mcp-remote.git
    cd pabbly-mcp-remote
    ```
 
