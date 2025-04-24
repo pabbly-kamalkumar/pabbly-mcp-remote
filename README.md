@@ -1,4 +1,4 @@
-# pabbly-mcp-remote
+# pabbly-mcp-remote 
 
 A lightweight bridge for connecting to Model Context Protocol (MCP) servers remotely. This package allows Claude Desktop or other MCP-compatible clients to connect to remote MCP servers using a simple bridge.
 
